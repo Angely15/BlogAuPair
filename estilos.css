@@ -1,0 +1,66 @@
+section {
+    color: blueviolet;
+}
+
+section div {
+    color: crimson;
+}
+
+img {
+    width: 300px;
+    height: 200;
+}
+
+section div {
+    color: aqua;
+}
+
+.Rojo {
+    color: #07dd006e;
+}
+
+.Item {
+    list-style: none;
+}
+
+.caja {
+    width: 50vw;
+    height: 120px;
+    background-color: salmon;
+    margin: 12px;
+    padding: 19px;
+}
+
+.padre {
+    display: flex;
+    flex-direction: ROW;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.animacion {
+    width: 200px;
+    height: 200px;
+    background: grey;
+    animation-name: Johan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.animacion:hover {
+    background: hotpink;
+    width: 100px;
+    height: 120px;
+}
+
+@keyframes Johan {
+    0% {
+        background: grey;
+    }
+    50% {
+        background: indigo;
+    }
+    100% {
+        background: royalblue;
+    }
+}
